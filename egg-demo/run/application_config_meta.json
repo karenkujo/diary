@@ -1,0 +1,327 @@
+{
+  "keys": "D:\\diary\\egg-demo\\config\\config.default.js",
+  "middleware": "D:\\diary\\egg-demo\\config\\config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "D:\\diary\\egg-demo\\config\\config.default.js",
+      "ignoreJSON": "D:\\diary\\egg-demo\\config\\config.default.js",
+      "type": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "useSession": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "headerName": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "queryName": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\diary\\egg-demo\\config\\config.default.js",
+    "protocolWhiteList": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "policy": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\diary\\egg-demo\\config\\config.default.js",
+    "credentials": "D:\\diary\\egg-demo\\config\\config.default.js",
+    "allowMethods": "D:\\diary\\egg-demo\\config\\config.default.js"
+  },
+  "view": {
+    "mapping": {
+      ".html": "D:\\diary\\egg-demo\\config\\config.default.js"
+    },
+    "root": "D:\\diary\\egg-demo\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "D:\\diary\\egg-demo\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\diary\\egg-demo\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\diary\\egg-demo\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "D:\\diary\\egg-demo\\config\\config.default.js",
+      "port": "D:\\diary\\egg-demo\\config\\config.default.js",
+      "user": "D:\\diary\\egg-demo\\config\\config.default.js",
+      "password": "D:\\diary\\egg-demo\\config\\config.default.js",
+      "database": "D:\\diary\\egg-demo\\config\\config.default.js"
+    },
+    "app": "D:\\diary\\egg-demo\\config\\config.default.js",
+    "agent": "D:\\diary\\egg-demo\\config\\config.default.js",
+    "default": {
+      "database": "D:\\diary\\egg-demo\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\diary\\egg-demo\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\diary\\egg-demo\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "D:\\diary\\egg-demo\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\diary\\egg-demo\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\diary\\egg-demo\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\diary\\egg-demo\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\diary\\egg-demo\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\diary\\egg-demo\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\diary\\egg-demo\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\diary\\egg-demo\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\diary\\egg-demo\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\diary\\egg-demo\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\diary\\egg-demo\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\diary\\egg-demo\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\diary\\egg-demo\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\diary\\egg-demo\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\diary\\egg-demo\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\diary\\egg-demo\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\diary\\egg-demo\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\diary\\egg-demo\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
+      "development": "D:\\diary\\egg-demo\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\diary\\egg-demo\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js",
+      "file": "D:\\diary\\egg-demo\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\diary\\egg-demo\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "files": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\diary\\egg-demo\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\diary\\egg-demo\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\diary\\egg-demo\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\diary\\egg-demo\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\diary\\egg-demo\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\diary\\egg-demo\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\diary\\egg-demo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\diary\\egg-demo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\diary\\egg-demo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\diary\\egg-demo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\diary\\egg-demo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\diary\\egg-demo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\diary\\egg-demo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\diary\\egg-demo\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "D:\\diary\\egg-demo\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "D:\\diary\\egg-demo\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "D:\\diary\\egg-demo\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "D:\\diary\\egg-demo\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\diary\\egg-demo\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "ejs": {
+    "root": "D:\\diary\\egg-demo\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "cache": "D:\\diary\\egg-demo\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.local.js",
+    "debug": "D:\\diary\\egg-demo\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "D:\\diary\\egg-demo\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "delimiter": "D:\\diary\\egg-demo\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "strict": "D:\\diary\\egg-demo\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js"
+  },
+  "env": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "name": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "cookies": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "proxy": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "version": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "description": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "private": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "egg": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-bin": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-cors": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-mysql": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-scripts": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-view-ejs": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "autod-egg": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-bin": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-ci": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-mock": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "eslint": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "stop": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "dev": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "debug": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "test": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "test-local": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "cov": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "lint": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "ci": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "autod": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "url": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "author": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "license": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "HOME": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "rundir": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "notFound": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "sitefile": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "middlewares": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "httpClient": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "encoding": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "formLimit": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "textLimit": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "strict": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "depth": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "encoding": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "env": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "level": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "outputJSON": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "buffer": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "appLogName": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "coreLogName": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "agentLogName": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "errorLogName": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "logging": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "serverTimeout": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "port": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "hostname": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\diary\\egg-demo\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+}
